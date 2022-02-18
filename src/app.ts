@@ -1,8 +1,11 @@
 import express from "express";
+import cors from "cors";
 import { csvToJson } from "./utilities";
 
 const app = express();
 const port = 3000;
+
+app.use(cors());
 
 app.get("/", (_, res) => {
   res.send("monirasp-backend is up and running!");
