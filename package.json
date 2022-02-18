@@ -1,6 +1,6 @@
 {
   "name": "monirasp-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple backend API to a Raspberry Pi.",
   "main": "app.js",
   "scripts": {
