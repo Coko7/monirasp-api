@@ -1,24 +1,29 @@
 {
   "name": "monirasp-backend",
-  "version": "1.0.2",
-  "description": "A simple backend API to a Raspberry Pi.",
+  "version": "1.0.3",
+  "description": "A simple backend API to monitor a Raspberry Pi.",
   "main": "app.js",
   "scripts": {
     "start": "nodemon dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "monitor",
-    "raspberry",
-    "pi",
-    "node",
-    "api"
+    "api",
+    "bash",
+    "expressjs",
+    "monitoring",
+    "nodejs",
+    "raspberry-pi",
+    "raspbian",
+    "temperature-monitoring",
+    "typescript"
   ],
-  "author": "Coko",
+  "author": "Coko7",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.18",
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "nodemon": "^2.0.15"
   },

@@ -9,7 +9,6 @@ fi
 while true; do
   TEMP=$(vcgencmd measure_temp | egrep -o '[0-9]*\.[0-9]*')
   TIME=$(date +"%s")
-  printf "%-30s%5s\n" "$TIME" "$TEMPERATURE°C"
   echo "$TIME,$TEMP" >>data/temperatures.csv
   sleep $INTERVAL
 done
