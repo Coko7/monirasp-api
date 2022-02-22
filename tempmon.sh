@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ -z "$1" ]]; then
-  INTERVAL=300 # Every 5 minutes
+  INTERVAL=5 # Every 5 seconds
 else
   INTERVAL=$1
 fi

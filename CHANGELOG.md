@@ -37,3 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added CORS in the list of dependencies
 - Removed unneeded `printf` in [tempmon.sh](./tempmon.sh)
+
+## [1.0.4] - 22-02-2022
+
+### Fixed
+
+- Changed write delay in [tempmon.sh](./tempmon.sh) from 5 minutes to 5 seconds
