@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# The output file for the temperature
+FILE="./data/temperatures.csv"
+
 if [[ -z "$1" ]]; then
   INTERVAL=5 # Every 5 seconds
 else
@@ -7,8 +10,9 @@ else
 fi
 
 while true; do
-  TEMP=$(vcgencmd measure_temp | egrep -o '[0-9]*\.[0-9]*')
   TIME=$(date +"%s")
-  echo "$TIME,$TEMP" >>data/temperatures.csv
+  TEMP=$(vcgencmd measure_temp | egrep -o '[0-9]*\.[0-9]*')
+  echo "Timestamp,Temperature" >$FILE
+  echo "$TIME,$TEMP" >>$FILE
   sleep $INTERVAL
 done

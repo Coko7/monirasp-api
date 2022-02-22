@@ -13,7 +13,7 @@ app.get("/", (_, res) => {
 
 app.get("/temperature", (_, res) => {
   let tempData = csvToJson("./data/temperatures.csv");
-  res.send(tempData.at(-1));
+  res.send(tempData.at(0));
 });
 
 app.listen(port, () => {

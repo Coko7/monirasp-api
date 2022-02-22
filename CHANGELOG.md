@@ -43,3 +43,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Changed write delay in [tempmon.sh](./tempmon.sh) from 5 minutes to 5 seconds
+
+## [1.1.0] - 22-02-2022
+
+### Added
+
+- Added a rule in [.gitignore](./.gitignore) to not track `data/temperatures.csv`
+
+### Changed
+
+- Changed [tempmon.sh](./tempmon.sh) to overwrite the data file each time (prevent the file from growing infinitely)
+- Changed route **GET /temperature** in [app.ts](./app.ts) to return the first (and only) element of `tempData`
