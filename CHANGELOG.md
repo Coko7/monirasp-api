@@ -64,3 +64,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Added a frontend usage example of the API in [frontend](./frontend/)
+
+## [1.2.1] - 22-02-2022
+
+### Changed
+
+- Updated [README](./README.md)

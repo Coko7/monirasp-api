@@ -1,8 +1,8 @@
-# monirasp-backend
+# monirasp-api
 
 ## What is it?
 
-A simple backend API written in Express.js that allows you to display your Raspberry Pi temperature on a cool website. **_Is it overkill?_** _Well, if you are here, that means you were looking for it right?_
+A simple API written in Express.js that allows you to display your Raspberry Pi temperature on a cool website. **_Is it overkill?_** _Well, if you are here, that means you were looking for it right?_
 
 ## Prequisites
 
@@ -35,4 +35,6 @@ npm start
 
 ## Accessing the API
 
-Once everything is running, you can access your Pi temperature at [http://localhost:3000/temperature](http://localhost:3000/temperature).
+Once everything is running, you can access your Pi temperature at [GET http://localhost:3000/temperature](http://localhost:3000/temperature).
+
+Alternatively, you can try the API directly with an actual website. There is an example website in the [frontend](./frontend) folder. You may serve the website statically with a webserver such as **Apache** or **Nginx** or access it directly from your browser.
