@@ -54,3 +54,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Changed [tempmon.sh](./tempmon.sh) to overwrite the data file each time (prevent the file from growing infinitely)
 - Changed route **GET /temperature** in [app.ts](./app.ts) to return the first (and only) element of `tempData`
+
+## [1.2.0] - 22-02-2022
+
+### Changed
+
+- Renamed project from **monirasp-backend** to **monirasp-api**
+
+### Added
+
+- Added a frontend usage example of the API in [frontend](./frontend/)

@@ -1,7 +1,7 @@
 {
-  "name": "monirasp-backend",
-  "version": "1.1.0",
-  "description": "A simple backend API to monitor a Raspberry Pi.",
+  "name": "monirasp-api",
+  "version": "1.2.0",
+  "description": "A simple API to monitor a Raspberry Pi.",
   "main": "app.js",
   "scripts": {
     "start": "nodemon dist/app.js",
