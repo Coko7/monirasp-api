@@ -70,3 +70,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated [README](./README.md)
+
+## [1.2.2] - 23-02-2022
+
+### Fixed
+
+- Fixed a bug in [frontend/main.js](./frontend/main.js) where the temperature color was stuck to white

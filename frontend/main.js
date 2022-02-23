@@ -47,9 +47,9 @@ function getData() {
 function setTemperatureColor(temperature) {
   if (temperature < 30) {
     p_pi_temp.classList = "cool";
-  } else if (temp < 40) {
+  } else if (temperature < 40) {
     p_pi_temp.classList = "normal";
-  } else if (temp < 50) {
+  } else if (temperature < 50) {
     p_pi_temp.classList = "moderate";
   } else {
     p_pi_temp.classList = "hot";
